@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Section Header Style */
+.line{
+    width: 100px;
+    border: 2px solid rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 20px;
+    transition: 1s;
+}
+.section-header:hover .line{
+    width: 200px;
+    border: 3px solid rgb(36, 36, 131);
+}
+/*  Section Of photos  */
+.item-img{
+    transition: 1s;
+    margin-top: 20px;
+}
+.item-img:hover{
+    transform: scale(1.2);
+}
+.mr{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.salary{
+    font-size: 18px;
+    font-weight: bold;
+}
+.res-1{
+    font-size: 25px;
+    font-weight: 700;
+}
+.font{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.active{
+    color: yellow;
+}
+.footer-icon{
+    font-size: 30px;
+    color: rgb(28, 63, 143);
+    transition: 1s;
+}
+.sp{
+    margin-left: 30px;
+}
+.footer-icon:hover{
+    font-size: 32px;
+    color: rgb(28, 47, 93);
+}
